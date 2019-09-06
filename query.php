@@ -48,8 +48,8 @@
         ?></td>
       <td>
           <a href="delete.php?id=<?php echo $v['id'] ?>">删除</a>
-          <a href="detail.php?id=<?php echo $v['id'] ?>">详情</a>
-          <a href="update.php?id=<?php echo $v['id'] ?>">编辑</a>
+          <a href="details.php?id=<?php echo $v['id'] ?>">详情</a>
+          <a href="edit.php?id=<?php echo $v['id'] ?>">编辑</a>
       </td>
       </tr>
     <?php }?>
